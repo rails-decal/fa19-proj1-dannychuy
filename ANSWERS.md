@@ -8,10 +8,13 @@ The pokemon are appearring each time you land on the page, generated randomly by
 capture_path allows the function to take in the pokemon (referenced by the id) and pass it along to capture so it can assign a trainer to the pokemon.
 
 # Question 3: What would you name your own Pokemon?
+Wilson
 
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
+Path! It needed to know the trainer id, since it was a trainer_path
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
+Since pokemon will validate the ndex and the name, without it, there will be an error, that gets written into a sentent with .to_sentence and be alerted by flash.
 
 # Give us feedback on the project and decal below!
 
